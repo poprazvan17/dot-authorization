@@ -11,6 +11,7 @@ Authorization base package defining interfaces for authorization services to be 
 [![GitHub license](https://img.shields.io/github/license/dotkernel/dot-authorization)](https://github.com/dotkernel/dot-authorization/blob/3.0/LICENSE.md)
 
 [![Build Static](https://github.com/dotkernel/dot-authorization/actions/workflows/continuous-integration.yml/badge.svg?branch=3.0)](https://github.com/dotkernel/dot-authorization/actions/workflows/continuous-integration.yml)
+[![codecov](https://codecov.io/gh/dotkernel/dot-authorization/graph/badge.svg?token=ZBZDEA3LY8)](https://codecov.io/gh/dotkernel/dot-authorization)
 
 [![SymfonyInsight](https://insight.symfony.com/projects/014df510-1cf7-4876-b1a8-303fbef2f364/big.svg)](https://insight.symfony.com/projects/014df510-1cf7-4876-b1a8-303fbef2f364)
 
