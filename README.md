@@ -14,7 +14,6 @@ Authorization base package defining interfaces for authorization services to be 
 
 [![SymfonyInsight](https://insight.symfony.com/projects/014df510-1cf7-4876-b1a8-303fbef2f364/big.svg)](https://insight.symfony.com/projects/014df510-1cf7-4876-b1a8-303fbef2f364)
 
-
 ## Installation
 
 Run the following command in you project directory
@@ -30,6 +29,7 @@ Please note that usually this pacakge will be installed as a dependency to a con
 Defines the interface that should be implemented by any authorization service, in order to work with DotKernel applications. This is a result of the fact that, by default, any DotKernel package which has to do with authorization is assuming that a service is registered in the service container using as service name this interface's FQN
 
 ### Methods
+
 ```php
 public function isGranted(string $permission, array $roles = [], $context = null): bool;
 ```

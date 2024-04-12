@@ -5,6 +5,7 @@
 Defines the interface that should be implemented by any authorization service, in order to work with DotKernel applications. This is a result of the fact that, by default, any DotKernel package which has to do with authorization is assuming that a service is registered in the service container using as service name this interface's FQN
 
 ### Methods
+
 ```php
 public function isGranted(string $permission, array $roles = [], $context = null): bool;
 ```
